@@ -1,0 +1,118 @@
+header{
+    background-color: antiquewhite;
+    background-image:url(/images/blue-snow.webp);
+
+    color: blue;
+    padding: 1em;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    clear: left;
+     border: 2px dotted; /* Set border to dotted and 2 pixels wide */
+        width: 1170px; /* Set width to 100 pixels */
+        height: 100px; /* Set height to 100 pixels */
+}
+    body{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            }  
+    /* tekee koko sisällöstä keskitetyn nätin */
+    
+    .wrapper{
+        display:flex;
+        background:pink;
+        padding:20px;
+        width: 1235px;
+    
+    }
+    .wrapper >div{
+        flex:1;
+        text-align: center;
+    
+    }  /* tekee menu otsikoista horisontaalisen nätin */
+
+.wrapper:hover {
+    color: red; /* Color change on hover for the links */
+ 
+ }
+
+ h1 { text-align: center;
+    color:blueviolet;
+    padding: 1em;
+    border: 2px solid pink;
+    border-radius: 10px;
+      
+}
+aside {
+    float: right;
+    width: 45%;
+    color: blue;
+    height: 430px;
+    padding: 1em;
+
+
+} article {
+    float: left;
+    width: 65%;
+    padding: 1em;
+    color: blue;
+    height: 230px;
+    
+} .footer{
+    position:absolute;
+    color: blue;
+    font-family:garamond;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background: pink;
+    margin: 20px;
+    bottom:0;
+    left:0;
+  
+
+
+} .article-ylläs{ 
+    float: left;
+    margin-left:20px;
+    background: pink;
+    padding:10px;
+    border: 5px solid green;
+
+  
+
+
+} .article-lumimaisema{ 
+    float:right;
+    margin-right:20px;
+    background: pink;
+    padding:10px;
+
+} .section-revontulet2{
+float: center;
+width: 200px;
+margin-right: 50px;
+
+/* floatilla vedetään johonkin suuntaan osiota ja paddingilla saa tekstin ympärille tilaa kivasti*/
+
+ } .article-utahkoillis{
+    float: center;
+    padding: 10px;
+    margin-right: 50px;
+  
+
+
+} .section-navparks{
+float: left;
+width: 109px;
+height: 1000px;
+padding:25px;
+background: rgb(241, 207, 212);
+cursor: pointer;
+color:blue;
+
+}.section-parks:hover {
+    color: red; /* Color change on hover for the links */
+ 
+ }
