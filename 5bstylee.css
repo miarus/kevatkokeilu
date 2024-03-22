@@ -58,18 +58,7 @@ aside {
     padding: 1em;
     color: blue;
     height: 230px;
-    
-} .footer{
-    position:absolute;
-    color: blue;
-    font-family:garamond;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    background: pink;
-    margin: 20px;
-    bottom:0;
-    left:0;
+
   
 
 
@@ -96,17 +85,18 @@ margin-right: 50px;
 
 /* floatilla vedetään johonkin suuntaan osiota ja paddingilla saa tekstin ympärille tilaa kivasti*/
 
- } .article-utahkoillis{
-    float: center;
+ 
+  
+} .article-utah{
+    float: left;
     padding: 10px;
     margin-right: 50px;
   
 
-
 } .section-navparks{
 float: left;
 width: 109px;
-height: 1000px;
+height: 80vh;
 padding:25px;
 background: rgb(241, 207, 212);
 cursor: pointer;
@@ -115,4 +105,15 @@ color:blue;
 }.section-parks:hover {
     color: red; /* Color change on hover for the links */
  
+ }
+
+ .footer{
+    
+    color: blue;
+    font-family:garamond;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: pink;
+    clear: left;
  }
